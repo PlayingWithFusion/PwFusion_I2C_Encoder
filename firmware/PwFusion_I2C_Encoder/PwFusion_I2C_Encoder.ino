@@ -49,14 +49,17 @@
 #include <RotaryEncoder.h>
 
 
-uint8_t primaryAddress = 0x01;
-uint8_t secondaryAddress = 0x02;
+uint8_t address0 = 0x01;
+uint8_t address1 = 0x02;
+uint8_t address2 = 0x03;
+uint8_t address3 = 0x04;
 
 #define SW 7   // PA7
 #define DT 1   // PA1
 #define CLK 0  // PA0
 
-#define ADR_SEL 9
+#define ADR_SEL_0 9
+#define ADR_SEL_1 8
 
 int direction = 1;
 ezButton button(SW);
@@ -88,7 +91,8 @@ int btnState;
 
 void setup() {
 
-  pinMode(ADR_SEL, INPUT);
+  pinMode(ADR_SEL_0, INPUT);
+  pinMode(ADR_SEL_1, INPUT);
   startI2C();
  
   pinMode(SW, INPUT);
@@ -101,10 +105,14 @@ void setup() {
 
 void startI2C() {
   // Select the correct I2C address based on the state of the ADR jumper
-  if (digitalRead(ADR_SEL) == LOW) {
-    Wire.begin(primaryAddress);
+  if (digitalRead(ADR_SEL_0) == LOW && digitalRead(ADR_SEL_1) == LOW) { 
+    Wire.begin(address0);
+  } else if (digitalRead(ADR_SEL_0) == HIGH && digitalRead(ADR_SEL_1) == LOW) {
+    Wire.begin(address1);
+  } else if (digitalRead(ADR_SEL_0) == LOW && digitalRead(ADR_SEL_1) == HIGH) {
+    Wire.begin(address2);
   } else {
-    Wire.begin(secondaryAddress);
+    Wire.begin(address3);
   }
 
   Wire.onReceive(receiveEvent);
