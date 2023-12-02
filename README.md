@@ -1,6 +1,6 @@
 # PwFusion_I2C_Encoder
 
-Are you looking for a way to take your project to the next level? Playing with Fusion's I2C Encoder board is the way to go! This device greatly simplifies connectivity to a microcontroller through the QWIIC system. The typical 5 wires required to use an encoder componet with a microcontroller can be reduced to one QWIIC cable. You can even chain multiple QWIIC devices together for maximum wiring efficiency! If that isn't enough, Playing with Fusion provides Arduino libraries to make writing code for these boards as easy as possible! Weather you are a beginner looking for a simple introduction to the world of hobbiest electronics or an advanced user looking for a rapid prototyping tool, Playing with Fusion's I2C Joystick is right for you!
+Are you looking for a way to take your project to the next level? Playing with Fusion's I2C Encoder board is the way to go! This device greatly simplifies connectivity to a microcontroller through the QWIIC system. The typical 5 wires required to use an encoder componet with a microcontroller can be reduced to one QWIIC cable. You can even chain multiple QWIIC devices together for maximum wiring efficiency! If that isn't enough, Playing with Fusion provides Arduino libraries to make writing code for these boards as easy as possible! Weather you are a beginner looking for a simple introduction to the world of hobbyist electronics or an advanced user looking for a rapid prototyping tool, Playing with Fusion's I2C Encoder is right for you!
 
 ## I2C Addresses
 
@@ -11,7 +11,7 @@ Are you looking for a way to take your project to the next level? Playing with F
 | uncut   |   cut     |   0x03 |
 | cut     |   cut     |   0x04 |
 
-Each Playing with Fusion I2C interface board comes with 2 available I2C addresses, which can be easily selected by disconnecting a jumper on the printed circuit board. This allows for 2 of the same boards (ex: 2 encoders) to be used on the same QWIIC chain. If you would like more than 2, see docs/Programming Instructions and flash a modified firmware with additional I2C address options.
+The Playing with Fusion I2C encoder board comes with 4 available I2C addresses, which can be easily selected by cutting the jumpers on the printed circuit board. This allows for 4 encoder boards to be used on the same QWIIC chain. If you would like more than 4, see docs/Programming Instructions and flash a modified firmware with additional I2C address options.
 
 ## Example Projects
 RC Transmitter: https://github.com/PlayingWithFusion/RC_Transmitter

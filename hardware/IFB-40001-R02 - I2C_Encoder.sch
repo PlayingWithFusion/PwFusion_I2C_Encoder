@@ -176,159 +176,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="1X04_1MM_RA" urn="urn:adsk.eagle:footprint:37714/1" library_version="1">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="1X04_1MM_RA_STRESSRELIEF" urn="urn:adsk.eagle:footprint:37987/1" library_version="1">
-<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
-<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
-<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
-<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="1X04_1MM_RA" urn="urn:adsk.eagle:package:38096/1" type="box" library_version="1">
-<description>SMD- 4 Pin Right Angle 
-Specifications:
-Pin count:4
-Pin pitch:0.1"
-
-Example device(s):
-CONN_04
-</description>
-<packageinstances>
-<packageinstance name="1X04_1MM_RA"/>
-</packageinstances>
-</package3d>
-<package3d name="1X04_1MM_RA_STRESSRELIEF" urn="urn:adsk.eagle:package:38303/1" type="box" library_version="1">
-<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
-<packageinstances>
-<packageinstance name="1X04_1MM_RA_STRESSRELIEF"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="I2C_STANDARD-1" urn="urn:adsk.eagle:symbol:37986/1" library_version="1">
-<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header&lt;/h3&gt;
-&lt;p&gt;SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;</description>
-<wire x1="3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
-<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
-<text x="-4.572" y="0" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
-<text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
-<text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
-<pin name="GND" x="7.62" y="-2.54" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="VCC" x="7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="SDA" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SCL" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:38395/1" prefix="J" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
-An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
-
-&lt;br&gt;&lt;br&gt;
-
-We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14205”&gt;100mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14206”&gt;50mm&lt;/a&gt;, and &lt;a href=”https://www.sparkfun.com/products/14207”&gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href=”https://www.sparkfun.com/products/14323”&gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
-<gates>
-<gate name="J1" symbol="I2C_STANDARD-1" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="JS-1MM" package="1X04_1MM_RA">
-<connects>
-<connect gate="J1" pin="GND" pad="1"/>
-<connect gate="J1" pin="SCL" pad="4"/>
-<connect gate="J1" pin="SDA" pad="3"/>
-<connect gate="J1" pin="VCC" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38096/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SR" package="1X04_1MM_RA_STRESSRELIEF">
-<connects>
-<connect gate="J1" pin="GND" pad="1"/>
-<connect gate="J1" pin="SCL" pad="4"/>
-<connect gate="J1" pin="SDA" pad="3"/>
-<connect gate="J1" pin="VCC" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38303/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -8190,21 +8037,6 @@ Source: AVX .. aphvc.pdf</description>
 <circle x="0" y="0" radius="3.25" width="0.127" layer="39"/>
 <circle x="0" y="0" radius="4" width="0.127" layer="42"/>
 </package>
-<package name="SMT_CUTTABLE_JUMPER" urn="urn:adsk.eagle:footprint:21537272/1" library_version="63">
-<smd name="1" x="-0.3302" y="0" dx="0.254" dy="1.016" layer="1" stop="no" cream="no"/>
-<smd name="2" x="0.3302" y="0" dx="0.254" dy="1.016" layer="1" stop="no" cream="no"/>
-<text x="-0.8636" y="1.0922" size="0.6096" layer="25">&gt;NAME</text>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.254" layer="1"/>
-<wire x1="0.254" y1="-0.889" x2="-0.254" y2="-0.889" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="-0.889" x2="-0.762" y2="-0.381" width="0.254" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0.254" layer="21"/>
-<wire x1="-0.762" y1="0.381" x2="-0.254" y2="0.889" width="0.254" layer="21" curve="-90"/>
-<wire x1="-0.254" y1="0.889" x2="0.254" y2="0.889" width="0.254" layer="21"/>
-<wire x1="0.254" y1="0.889" x2="0.762" y2="0.381" width="0.254" layer="21" curve="-90"/>
-<wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0.254" layer="21"/>
-<wire x1="0.762" y1="-0.381" x2="0.254" y2="-0.889" width="0.254" layer="21" curve="-90"/>
-<rectangle x1="-0.508" y1="-0.635" x2="0.508" y2="0.635" layer="29"/>
-</package>
 <package name="P50-POGO_BOARD_CONTACT" urn="urn:adsk.eagle:footprint:16658194/1" library_version="63">
 <pad name="1" x="0" y="0" drill="0.381"/>
 <text x="-0.635" y="0.635" size="0.8128" layer="25" font="vector">&gt;NAME</text>
@@ -8274,11 +8106,6 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="M3_HOLE"/>
 </packageinstances>
 </package3d>
-<package3d name="SMT_CUTTABLE_JUMPER" urn="urn:adsk.eagle:package:21537276/1" type="box" library_version="63">
-<packageinstances>
-<packageinstance name="SMT_CUTTABLE_JUMPER"/>
-</packageinstances>
-</package3d>
 <package3d name="P50-POGO_BOARD_CONTACT" urn="urn:adsk.eagle:package:16658291/1" type="box" library_version="63">
 <packageinstances>
 <packageinstance name="P50-POGO_BOARD_CONTACT"/>
@@ -8304,14 +8131,6 @@ Source: AVX .. aphvc.pdf</description>
 <symbol name="STAND_OFF" urn="urn:adsk.eagle:symbol:16658092/1" library_version="59">
 <circle x="0" y="0" radius="1.905" width="0.2032" layer="94"/>
 <text x="-1.905" y="2.2225" size="1.016" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="CUTTABLE_JUMPER" urn="urn:adsk.eagle:symbol:21537269/1" library_version="63">
-<text x="-3.175" y="1.905" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<rectangle x1="-2.54" y1="-1.905" x2="-0.635" y2="1.905" layer="94"/>
-<rectangle x1="0.635" y1="-1.905" x2="2.54" y2="1.905" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
-<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.508" layer="94"/>
 </symbol>
 <symbol name="POGO_PAD" urn="urn:adsk.eagle:symbol:16658106/1" library_version="63">
 <wire x1="-3.556" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
@@ -8386,25 +8205,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <device name="M3_HOLE" package="M3_HOLE">
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:19281306/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CUTTABLE_JUMPER" urn="urn:adsk.eagle:component:21537278/1" prefix="J1" library_version="63">
-<gates>
-<gate name="J1" symbol="CUTTABLE_JUMPER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMT_CUTTABLE_JUMPER">
-<connects>
-<connect gate="J1" pin="1" pad="1"/>
-<connect gate="J1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21537276/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -13790,99 +13590,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </deviceset>
 </devicesets>
 </library>
-<library name="PEC11R-4215F-S0024">
-<packages>
-<package name="XDCR_PEC11R-4215F-S0024">
-<wire x1="-6.7" y1="1.4" x2="-6.7" y2="-1.4" width="0.0001" layer="46"/>
-<wire x1="-6.7" y1="-1.4" x2="-4.7" y2="-1.4" width="0.0001" layer="46"/>
-<wire x1="-4.7" y1="-1.4" x2="-4.7" y2="1.4" width="0.0001" layer="46"/>
-<wire x1="-4.7" y1="1.4" x2="-6.7" y2="1.4" width="0.0001" layer="46"/>
-<wire x1="4.7" y1="1.4" x2="4.7" y2="-1.4" width="0.0001" layer="46"/>
-<wire x1="4.7" y1="-1.4" x2="6.7" y2="-1.4" width="0.0001" layer="46"/>
-<wire x1="6.7" y1="-1.4" x2="6.7" y2="1.4" width="0.0001" layer="46"/>
-<wire x1="6.7" y1="1.4" x2="4.7" y2="1.4" width="0.0001" layer="46"/>
-<wire x1="-6.25" y1="6.7" x2="6.25" y2="6.7" width="0.127" layer="51"/>
-<wire x1="6.25" y1="6.7" x2="6.25" y2="-6.7" width="0.127" layer="51"/>
-<wire x1="6.25" y1="-6.7" x2="-6.25" y2="-6.7" width="0.127" layer="51"/>
-<wire x1="-6.25" y1="-6.7" x2="-6.25" y2="6.7" width="0.127" layer="51"/>
-<wire x1="-6.25" y1="3.4" x2="-6.25" y2="6.7" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="6.7" x2="-3.7" y2="6.7" width="0.127" layer="21"/>
-<wire x1="3.7" y1="6.7" x2="6.25" y2="6.7" width="0.127" layer="21"/>
-<wire x1="6.25" y1="6.7" x2="6.25" y2="3.4" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="-3.4" x2="-6.25" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="-6.25" y1="-6.7" x2="-3.7" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-6.7" x2="6.25" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="6.25" y1="-6.7" x2="6.25" y2="-3.4" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
-<wire x1="-7.45" y1="8.1" x2="-7.45" y2="-8.6" width="0.05" layer="39"/>
-<wire x1="-7.45" y1="-8.6" x2="7.45" y2="-8.6" width="0.05" layer="39"/>
-<wire x1="7.45" y1="-8.6" x2="7.45" y2="8.1" width="0.05" layer="39"/>
-<wire x1="7.45" y1="8.1" x2="-7.45" y2="8.1" width="0.05" layer="39"/>
-<text x="-7.35" y="8.2" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.35" y="-9.95" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-4.2" y="7.6" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.2" y="7.6" radius="0.1" width="0.2" layer="51"/>
-<pad name="1" x="-2.5" y="7" drill="1.1" shape="square"/>
-<pad name="2" x="2.5" y="7" drill="1.1"/>
-<pad name="A" x="-2.5" y="-7.5" drill="1.1"/>
-<pad name="COM" x="0" y="-7.5" drill="1.1"/>
-<pad name="B" x="2.5" y="-7.5" drill="1.1"/>
-<pad name="S1" x="-5.7" y="0" drill="2" shape="long" rot="R90"/>
-<pad name="S2" x="5.7" y="0" drill="2" shape="long" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PEC11R-4215F-S0024">
-<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-8.89" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-<wire x1="-2.54" y1="2.54" x2="2.794" y2="4.6736" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3302" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="2.921" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="1" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
-<pin name="B" x="10.16" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="COM" x="-10.16" y="-2.54" length="short" direction="pas"/>
-<pin name="SHIELD" x="-10.16" y="-5.08" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PEC11R-4215F-S0024" prefix="MT">
-<description>Incremental Encoder, 12 Mm, Contact Rating 10 Ma - 5 Vdc &lt;a href="https://pricing.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="PEC11R-4215F-S0024" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XDCR_PEC11R-4215F-S0024">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="COM" pad="COM"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical "/>
-<attribute name="MF" value="Bourns"/>
-<attribute name="MP" value="PEC11R-4215F-S0024"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/PEC11R-4215F-S0024/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ATTINY841-MMHR">
 <packages>
 <package name="QFN45P300X300X85-21N">
@@ -14024,6 +13731,183 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </deviceset>
 </devicesets>
 </library>
+<library name="PlayingWithFusion_Bourns" urn="urn:adsk.eagle:library:16521101">
+<packages>
+<package name="XDCR_PEC11R-4215F-S0024" urn="urn:adsk.eagle:footprint:40525857/1" library_version="12">
+<wire x1="-6.7" y1="1.4" x2="-6.7" y2="-1.4" width="0.0001" layer="46"/>
+<wire x1="-6.7" y1="-1.4" x2="-4.7" y2="-1.4" width="0.0001" layer="46"/>
+<wire x1="-4.7" y1="-1.4" x2="-4.7" y2="1.4" width="0.0001" layer="46"/>
+<wire x1="-4.7" y1="1.4" x2="-6.7" y2="1.4" width="0.0001" layer="46"/>
+<wire x1="4.7" y1="1.4" x2="4.7" y2="-1.4" width="0.0001" layer="46"/>
+<wire x1="4.7" y1="-1.4" x2="6.7" y2="-1.4" width="0.0001" layer="46"/>
+<wire x1="6.7" y1="-1.4" x2="6.7" y2="1.4" width="0.0001" layer="46"/>
+<wire x1="6.7" y1="1.4" x2="4.7" y2="1.4" width="0.0001" layer="46"/>
+<wire x1="-6.25" y1="6.7" x2="6.25" y2="6.7" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.7" x2="6.25" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.7" x2="-6.25" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-6.7" x2="-6.25" y2="6.7" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="3.4" x2="-6.25" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="6.7" x2="-3.7" y2="6.7" width="0.127" layer="21"/>
+<wire x1="3.7" y1="6.7" x2="6.25" y2="6.7" width="0.127" layer="21"/>
+<wire x1="6.25" y1="6.7" x2="6.25" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-3.4" x2="-6.25" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.7" x2="-3.7" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-6.7" x2="6.25" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.7" x2="6.25" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="-7.45" y1="8.1" x2="-7.45" y2="-8.6" width="0.05" layer="39"/>
+<wire x1="-7.45" y1="-8.6" x2="7.45" y2="-8.6" width="0.05" layer="39"/>
+<wire x1="7.45" y1="-8.6" x2="7.45" y2="8.1" width="0.05" layer="39"/>
+<wire x1="7.45" y1="8.1" x2="-7.45" y2="8.1" width="0.05" layer="39"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+<circle x="-4.2" y="7.6" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.2" y="7.6" radius="0.1" width="0.2" layer="51"/>
+<text x="-7.35" y="8.2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.35" y="-9.95" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.5" y="7" drill="1.1" shape="square"/>
+<pad name="2" x="2.5" y="7" drill="1.1"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1.1"/>
+<pad name="COM" x="0" y="-7.5" drill="1.1"/>
+<pad name="B" x="2.5" y="-7.5" drill="1.1"/>
+<pad name="S1" x="-5.7" y="0" drill="2" shape="long" rot="R90"/>
+<pad name="S2" x="5.7" y="0" drill="2" shape="long" rot="R90"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="XDCR_PEC11R-4215F-S0024" urn="urn:adsk.eagle:package:40525858/2" type="model" library_version="12">
+<packageinstances>
+<packageinstance name="XDCR_PEC11R-4215F-S0024"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PEC11R-4215F-S0024" urn="urn:adsk.eagle:symbol:40525856/1" library_version="12">
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-8.89" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="2.794" y2="4.6736" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="2.921" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3302" width="0.1524" layer="94"/>
+<pin name="1" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="10.16" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="B" x="10.16" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="COM" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-5.08" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PEC11R-4215F-S0024" urn="urn:adsk.eagle:component:40525859/2" prefix="EN" library_version="12">
+<description>Incremental Encoder, 12 Mm, Contact Rating 10 Ma - 5 Vdc &lt;a href="https://pricing.snapeda.com/parts/PEC11R-4215F-S0024/Bourns/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="EN" symbol="PEC11R-4215F-S0024" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XDCR_PEC11R-4215F-S0024">
+<connects>
+<connect gate="EN" pin="1" pad="1"/>
+<connect gate="EN" pin="2" pad="2"/>
+<connect gate="EN" pin="A" pad="A"/>
+<connect gate="EN" pin="B" pad="B"/>
+<connect gate="EN" pin="COM" pad="COM"/>
+<connect gate="EN" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40525858/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value="  Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical "/>
+<attribute name="MF" value="Bourns"/>
+<attribute name="MP" value="PEC11R-4215F-S0024"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/PEC11R-4215F-S0024/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="PlayingWithFusion_JST" urn="urn:adsk.eagle:library:13097115">
+<packages>
+<package name="SM04B-SRSS-TB" urn="urn:adsk.eagle:footprint:13097127/3" library_version="15">
+<smd name="4" x="-1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="3" x="-0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="1" x="1.5" y="0" dx="0.6" dy="1.55" layer="1"/>
+<smd name="MECH2" x="-2.8" y="3.875" dx="1.2" dy="1.8" layer="1"/>
+<smd name="MECH1" x="2.8" y="3.875" dx="1.2" dy="1.8" layer="1"/>
+<wire x1="-3" y1="4.575" x2="-2.1" y2="4.575" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="4.575" x2="2.1" y2="4.575" width="0.127" layer="21"/>
+<wire x1="2.1" y1="4.575" x2="3" y2="4.575" width="0.127" layer="21"/>
+<wire x1="3" y1="4.575" x2="3" y2="0.325" width="0.127" layer="21"/>
+<wire x1="3" y1="0.325" x2="-3" y2="0.325" width="0.127" layer="21"/>
+<wire x1="-3" y1="0.325" x2="-3" y2="4.575" width="0.127" layer="21"/>
+<wire x1="2.1" y1="4.575" x2="2.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.9" x2="-2.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.9" x2="-2.1" y2="4.575" width="0.127" layer="21"/>
+<text x="-1.85" y="2.1" size="1" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="3.4" size="1" layer="49" font="vector" ratio="12" align="bottom-center">side</text>
+<text x="2" y="0.6" size="1.27" layer="21" font="vector" ratio="12">1</text>
+<circle x="2.5" y="-0.3" radius="0.225" width="0.5" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SM04B-SRSS-TB" urn="urn:adsk.eagle:package:13097145/4" type="model" library_version="15">
+<packageinstances>
+<packageinstance name="SM04B-SRSS-TB"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="QWIIC" urn="urn:adsk.eagle:symbol:42297910/1" library_version="15">
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="middle"/>
+<pin name="2" x="-7.62" y="2.54" visible="pad" length="middle"/>
+<pin name="3" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="MECH" x="-5.08" y="-5.08" visible="pin" length="point"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="middle"/>
+<wire x1="-4.064" y1="6.858" x2="-4.064" y2="-6.604" width="0.4064" layer="94"/>
+<wire x1="-4.064" y1="-6.604" x2="3.81" y2="-6.604" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-6.604" x2="3.81" y2="6.858" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="6.858" x2="-4.064" y2="6.858" width="0.4064" layer="94"/>
+<text x="-4.064" y="7.9756" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
+<text x="-1.27" y="0" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
+<text x="-1.27" y="2.54" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
+<text x="-1.27" y="5.08" size="1.778" layer="94" font="vector" align="center-left">GND</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="QWIIC" urn="urn:adsk.eagle:component:42297911/1" prefix="J1" library_version="15">
+<gates>
+<gate name="J1" symbol="QWIIC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SIDE" package="SM04B-SRSS-TB">
+<connects>
+<connect gate="J1" pin="1" pad="1"/>
+<connect gate="J1" pin="2" pad="2"/>
+<connect gate="J1" pin="3" pad="3"/>
+<connect gate="J1" pin="4" pad="4"/>
+<connect gate="J1" pin="MECH" pad="MECH1 MECH2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13097145/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14034,7 +13918,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </class>
 </classes>
 <parts>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -14064,13 +13947,11 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="SO2" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="STAND_OFF" device="NO4_TIGHT" package3d_urn="urn:adsk.eagle:package:16658265/1"/>
 <part name="SO3" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="STAND_OFF" device="NO4_TIGHT" package3d_urn="urn:adsk.eagle:package:16658265/1"/>
 <part name="SO4" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="STAND_OFF" device="NO4_TIGHT" package3d_urn="urn:adsk.eagle:package:16658265/1"/>
-<part name="MT1" library="PEC11R-4215F-S0024" deviceset="PEC11R-4215F-S0024" device="" override_package3d_urn="urn:adsk.eagle:package:39016988/2" override_package_urn="urn:adsk.eagle:footprint:39016990/1"/>
+<part name="MT1" library="PlayingWithFusion_Bourns" library_urn="urn:adsk.eagle:library:16521101" deviceset="PEC11R-4215F-S0024" device="" package3d_urn="urn:adsk.eagle:package:40525858/2" override_package3d_urn="urn:adsk.eagle:package:39016988/2" override_package_urn="urn:adsk.eagle:footprint:39016990/1" override_locally_modified="yes"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="ATTINY841-MMHR" deviceset="ATTINY841-MMHR" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="J3" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="CUTTABLE_JUMPER" device="" package3d_urn="urn:adsk.eagle:package:21537276/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14084,6 +13965,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="U$3" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:16658275/1"/>
 <part name="J4" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="CUT_JUMPER_2X" device="" package3d_urn="urn:adsk.eagle:package:21537277/1"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="J5" library="PlayingWithFusion_JST" library_urn="urn:adsk.eagle:library:13097115" deviceset="QWIIC" device="SIDE" package3d_urn="urn:adsk.eagle:package:13097145/4"/>
+<part name="J6" library="PlayingWithFusion_JST" library_urn="urn:adsk.eagle:library:13097115" deviceset="QWIIC" device="SIDE" package3d_urn="urn:adsk.eagle:package:13097145/4"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
+<part name="J2" library="PlayingWithFusion_Breakout-Lib" library_urn="urn:adsk.eagle:library:16658049" deviceset="CUT_JUMPER_2X" device="" package3d_urn="urn:adsk.eagle:package:21537277/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14096,10 +13981,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="20.32" y="129.54" size="1.778" layer="91">RST</text>
 </plain>
 <instances>
-<instance part="J1" gate="J1" x="22.86" y="58.42" smashed="yes">
-<attribute name="VALUE" x="17.78" y="53.086" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="17.78" y="66.294" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="GND1" gate="1" x="121.92" y="101.6" smashed="yes">
 <attribute name="VALUE" x="119.38" y="99.06" size="1.778" layer="96"/>
 </instance>
@@ -14198,7 +14079,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="SO4" gate="G$1" x="213.36" y="33.02" smashed="yes">
 <attribute name="NAME" x="211.455" y="35.2425" size="1.016" layer="95"/>
 </instance>
-<instance part="MT1" gate="G$1" x="154.94" y="71.12" smashed="yes">
+<instance part="MT1" gate="EN" x="154.94" y="71.12" smashed="yes">
 <attribute name="NAME" x="147.32" y="80.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.32" y="62.23" size="1.778" layer="96" align="top-left"/>
 </instance>
@@ -14209,28 +14090,21 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <attribute name="NAME" x="91.44" y="153.4" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="91.44" y="102.68" size="2.0828" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="J2" gate="J1" x="55.88" y="58.42" smashed="yes">
-<attribute name="VALUE" x="50.8" y="53.086" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="50.8" y="66.294" size="1.778" layer="95" font="vector"/>
+<instance part="GND3" gate="1" x="93.98" y="48.26" smashed="yes">
+<attribute name="VALUE" x="91.44" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="63.5" y="48.26" smashed="yes">
-<attribute name="VALUE" x="60.96" y="45.72" size="1.778" layer="96"/>
+<instance part="P+2" gate="VCC" x="109.22" y="73.66" smashed="yes">
+<attribute name="VALUE" x="106.68" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+2" gate="VCC" x="78.74" y="73.66" smashed="yes">
-<attribute name="VALUE" x="76.2" y="71.12" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="48.26" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.308" y="119.126" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="51.308" y="124.206" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J3" gate="J1" x="63.5" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="61.595" y="103.505" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="P+10" gate="VCC" x="48.26" y="137.16" smashed="yes">
+<attribute name="VALUE" x="45.72" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="63.5" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.0014" y="118.11" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.802" y="118.11" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+10" gate="VCC" x="63.5" y="132.08" smashed="yes">
-<attribute name="VALUE" x="60.96" y="129.54" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND9" gate="1" x="63.5" y="96.52" smashed="yes">
-<attribute name="VALUE" x="60.96" y="93.98" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="53.34" y="101.6" smashed="yes">
+<attribute name="VALUE" x="50.8" y="99.06" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC" gate="J1" x="30.48" y="167.64" smashed="yes"/>
 <instance part="GND" gate="J1" x="30.48" y="160.02" smashed="yes"/>
@@ -14246,6 +14120,19 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="P+11" gate="VCC" x="25.4" y="121.92" smashed="yes">
 <attribute name="VALUE" x="22.86" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="J5" gate="J1" x="5.08" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.144" y="52.9844" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+</instance>
+<instance part="J6" gate="J1" x="78.74" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.804" y="52.9844" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+</instance>
+<instance part="R9" gate="G$1" x="58.42" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="61.468" y="119.126" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.468" y="124.206" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J2" gate="J1" x="53.34" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.435" y="106.68" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14257,9 +14144,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="12.7" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="55.88" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -14274,7 +14162,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="134.62" y1="73.66" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="MT1" gate="G$1" pin="1"/>
+<pinref part="MT1" gate="EN" pin="1"/>
 <wire x1="144.78" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14288,20 +14176,21 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="233.68" y1="104.14" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MT1" gate="G$1" pin="COM"/>
+<pinref part="MT1" gate="EN" pin="COM"/>
 <wire x1="144.78" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="68.58" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="63.5" y1="55.88" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J6" gate="J1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="63.5" y1="101.6" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="2"/>
+<wire x1="53.34" y1="104.14" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND" gate="J1" pin="P$1"/>
@@ -14311,10 +14200,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="VCC"/>
-<wire x1="30.48" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="12.7" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="58.42" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J5" gate="J1" pin="2"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="149.86" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
@@ -14347,15 +14236,20 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <junction x="220.98" y="116.84"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="VCC"/>
-<wire x1="63.5" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="78.74" y1="58.42" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="58.42" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J6" gate="J1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="127" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="129.54" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="VCC" pin="VCC"/>
+<wire x1="48.26" y1="132.08" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="132.08" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
+<junction x="48.26" y="132.08"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="132.08" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VCC" gate="J1" pin="P$1"/>
@@ -14375,7 +14269,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <label x="182.88" y="66.04" size="1.778" layer="95"/>
-<pinref part="MT1" gate="G$1" pin="B"/>
+<pinref part="MT1" gate="EN" pin="B"/>
 <wire x1="165.1" y1="66.04" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="66.04" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
 <junction x="185.42" y="73.66"/>
@@ -14388,7 +14282,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <label x="175.26" y="68.58" size="1.778" layer="95"/>
-<pinref part="MT1" gate="G$1" pin="A"/>
+<pinref part="MT1" gate="EN" pin="A"/>
 <wire x1="175.26" y1="68.58" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="68.58" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <junction x="175.26" y="68.58"/>
@@ -14406,16 +14300,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="121.92" y1="124.46" x2="127" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="SDA"/>
-<wire x1="30.48" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <label x="38.1" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J5" gate="J1" pin="3"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SDA"/>
-<wire x1="63.5" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="60.96" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
-<label x="71.12" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="86.36" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="60.96" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<label x="101.6" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J6" gate="J1" pin="3"/>
 </segment>
 <segment>
 <pinref part="MOSI" gate="J1" pin="P$1"/>
@@ -14425,10 +14319,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="SCL"/>
-<wire x1="30.48" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="63.5" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <label x="33.02" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J5" gate="J1" pin="4"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PA4(SCL)"/>
@@ -14436,10 +14330,10 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="127" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SCL"/>
-<wire x1="63.5" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="63.5" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<label x="66.04" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="86.36" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="63.5" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<label x="96.52" y="68.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="J6" gate="J1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -14500,7 +14394,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="134.62" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MT1" gate="G$1" pin="2"/>
+<pinref part="MT1" gate="EN" pin="2"/>
 <wire x1="165.1" y1="73.66" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="81.28" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
@@ -14533,16 +14427,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <label x="127" y="114.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADDR" class="0">
+<net name="ADDR0" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB1"/>
-<wire x1="86.36" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="114.3" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J3" gate="J1" pin="2"/>
-<wire x1="63.5" y1="114.3" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
-<junction x="63.5" y="114.3"/>
-<label x="76.2" y="114.3" size="1.778" layer="95"/>
+<wire x1="48.26" y1="114.3" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<junction x="48.26" y="114.3"/>
+<label x="71.12" y="114.3" size="1.778" layer="95"/>
+<pinref part="J2" gate="J1" pin="3"/>
+<wire x1="48.26" y1="114.3" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14559,6 +14453,18 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pinref part="J4" gate="J1" pin="3"/>
 <wire x1="30.48" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="114.3" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ADDR1" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="119.38" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PB0"/>
+<wire x1="58.42" y1="116.84" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="116.84" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<junction x="58.42" y="116.84"/>
+<label x="71.12" y="116.84" size="1.778" layer="95"/>
+<pinref part="J2" gate="J1" pin="1"/>
 </segment>
 </net>
 </nets>
