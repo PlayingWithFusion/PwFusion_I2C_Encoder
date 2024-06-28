@@ -48,13 +48,13 @@ Within the Arduino IDE, select Tools->Board->ATTinyCore (in sketchbook). This wi
 
 Open the library manager on the left side of the Arduino IDE. Install the needed library for the board (i.e. PwFusion_I2C_Encoder_Arduino_Library for the encoder, etc.)
 
-**Step 7**
+**Step 6**
 
 ![](images/img_14.png)
 
 Install the ezbutton library as well.
 
-**Step 8**
+**Step 7**
 
 ![](images/img_13.png)
 
